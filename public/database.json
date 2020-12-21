@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Laugh Track",
+            "type": "personal",
+            "description": "Laugh Track was my front-end capstone at the Nashville Software School. It is a ReactJS based application that utizlizes JSON, mreh and marrrr. The project was a 2 week sprint and was a practice in CRUD, agile development, wireframing and prototyping. The goal of the app is to help comedians succeed in terms of networking, workshopping material, hosting events and marketing themselves.",
+            "link": "https://github.com/richieholsenback/laughtrack",
+            "videoLink": ""
+        }
+    ],
+    "experience": [
+        {}
+    ],
+    "education": [
+        {}
+    ],
+    "techStack": [
+        {
+            "id": 1,
+            "name": "HTML",
+            "type": "Development"
+        }
+    ]
+}
