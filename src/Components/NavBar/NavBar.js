@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "../scss/NavBar.scss"
 
 export const NavBar = props => {
     return (
@@ -8,32 +8,32 @@ export const NavBar = props => {
         
             <ul className="navbar">
                 <li className="navbar__item active">
-                    <Link className="navbar__link" to="/work">
-                    <h2 className="navtext">Richie Holsenback</h2>
+                    <Link className="navbar__link" to="/">
+                    <h2 className="navtext navHeader">Richie Holsenback</h2>
                 </Link>
                 </li>
-                <div className="navSpacer"></div>
+                <div className="nav-choices">
                 <li className="navbar__item">
-                    <Link className="navbar__link" to="/work">
-                        <h4 className="navtextItem">Work</h4>
+                    <Link className="navbar__link" to="/">
+                        <h4 className="navtext">Work</h4>
                  </Link>
                 </li>
                 <li className="navbar__item">
-                    <Link className="navbar__link" to="/resume">
-                       <h4 className="navtextItem">Resumé</h4>
-                </Link>
+                    {/* <Link className="navbar__link" to="/resume"> */}
+                       <h4 className="navtext">Resumé</h4>
+                {/* </Link> */}
                 </li>
                 <li className="navbar__item">
                     <Link className="navbar__link" to="/contact">
-                    <h4 className="navtextItem">Contact</h4>
+                    <h4 className="navtext">Contact</h4>
                 </Link>
                 </li>
                 <li className="navbar__item">
-                    <Link className="navbar__link" to="/fun">
-                    <h4 className="navtextItem">Fun</h4>
-                </Link>
+                    {/* <Link className="navbar__link" to="/fun"> */}
+                    <h4 className="navtext">Fun</h4>
+                {/* </Link> */}
                 </li>
-                <div className="navSpacer"></div>
+                </div>
             </ul>
 
             {/* <img id="headerBG" src={photo} width="100%" alt="header art"/> */}

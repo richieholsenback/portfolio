@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #7D9283;
+    margin-bottom: -1em;
+}
+
+.navtext{
+    font-family: 'Atkinson-Hyperledgible-Regular';
+    font-weight: 100;
+    color: #FFF6EA;
+    font-size: 30px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navHeader{
+    font-family: "Pridi";
+    font-size: 36px;
+}
+
+.navSpacerS {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.nav-choices{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 2em;
+}
+
+.navbar__item{
+    margin-left: 2em;
+    margin-right: 2em;
+}
