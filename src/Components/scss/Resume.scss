@@ -1,0 +1,49 @@
+@use 'variables';
+
+.resume-section{
+    background-color: #5B5B7A;
+}
+
+.resume-header{
+    font-family: "Pridi";
+}
+
+.text-white{
+    color: #FFF6EA;
+    font-family: "Atkinson-Hyperledgible-Regular";
+    font-size: 36px;
+}
+.text-pink{
+    color: #FFB5B5;
+    font-family: "Atkinson-Hyperledgible-Regular";
+    font-size: 36px;
+}
+
+.exp-section-header{
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+.TechExp{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.ProExp{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.edu-section{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.exp-descrip {
+    list-style-type: disc;
+}
+
+.resume-section-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
