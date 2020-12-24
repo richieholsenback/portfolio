@@ -3,6 +3,7 @@ import { Education } from "./Education"
 import { ProExp } from "./ProExp"
 import { TechExp } from "./TechExp"
 import "../scss/Resume.scss"
+import { TechStack } from "./TechStack"
 
 export const Resume = () => {
     return (
@@ -13,6 +14,7 @@ export const Resume = () => {
             </div>
             <TechExp />
             <ProExp />
+            <TechStack />
             <Education />
         </div>
     )

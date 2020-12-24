@@ -1,4 +1,3 @@
-
 import React from "react"
 import { Button, Image } from "react-bootstrap";
 import photo from '../../images/IMG_0151.jpeg'

@@ -4,6 +4,8 @@ import { ContactSection } from "./Contact/Contact";
 import { NavBar } from "./NavBar/NavBar";
 import { Resume } from "./Resume/Resume";
 import { GreetingSection } from "./Work/Greet";
+import { Fun } from "./Fun/Fun";
+import "./scss/NavBar.scss"
 
 export const ApplicationViews = props => {
     return (
@@ -21,6 +23,11 @@ export const ApplicationViews = props => {
             <Route exact path='/resume'>
                 <NavBar />
                 <Resume />
+            </Route>
+            
+            <Route exact path='/fun'>
+                <NavBar />
+                <Fun />
             </Route>
         </div>
     )
