@@ -1,3 +1,4 @@
+import { Button } from "react-bootstrap"
 import { NavBar } from "../NavBar/NavBar"
 import "../scss/_contact.scss"
 
@@ -11,8 +12,8 @@ export const ContactSection = () => {
                     Let’s get in touch!
                 </p>
                 <div className="button-section">
-                    <button className="button-left">Check out my LinkedIn</button>
-                    <button className="button-right">Send me an Email</button>
+                    <Button className="button-left" href="https://github.com/richieholsenback" target="_blank">Check out my LinkedIn</Button>{' '}
+                    <Button className="button-right" >Send me an Email</Button>{' '}
                 </div>
             </div>
         </div>

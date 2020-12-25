@@ -25,15 +25,15 @@ export const GreetingSection = () => {
                 <div className="project-section">
                     <div className="project-card">
                         <div className="square"></div>
-                        <h4 className="project-name text-white">Laugh Track</h4>
+                        <a href="https://github.com/richieholsenback/laughtrack" target="_blank"><h4 className="project-name text-white">Laugh Track</h4></a>
                     </div>
                     <div className="project-card">
                         <div className="square"></div>
-                        <h4 className="project-name text-white">Laugh Track</h4>
+                        <a href="https://github.com/richieholsenback/laughtrack" target="_blank"><h4 className="project-name text-white">Laugh Track</h4></a>
                     </div>
                     <div className="project-card">
                         <div className="square"></div>
-                        <h4 className="project-name text-white">Laugh Track</h4>
+                        <a href="https://github.com/richieholsenback/laughtrack" target="_blank"><h4 className="project-name text-white">Laugh Track</h4></a>
                     </div>
                 </div>
             </div>

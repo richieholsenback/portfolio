@@ -1,6 +1,7 @@
 import React from "react"
 import { NavBar } from "../NavBar/NavBar"
 import "../scss/_fun.scss"
+import photo from "../../images/birbwhite.png"
 
 export const Fun = () => {
     return (
@@ -11,7 +12,7 @@ export const Fun = () => {
                     I’m here for a good time.
             </h1>
                 <p className="fun-text">
-                    In my spare time I love to skateboard, perform standup comedy, watch movies and listen to good music. This is the space in which I impose all of that on you.
+                    In my spare time I love to skateboard, perform standup comedy, watch movies and listen to music. This is the space in which I impose all of that on you.
             </p>
             <div className="entertainment">
                 <iframe id="spotify" src="https://open.spotify.com/embed/playlist/4CkD7Bai9HfE73rvks4ILH" width="400" height="480" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
