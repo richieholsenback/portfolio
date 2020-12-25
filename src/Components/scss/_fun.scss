@@ -1,5 +1,8 @@
+@import './variables';
+$test : 4;
+
 .fun-page{
-    background-color: #BD6262;
+    background-color: $red;
     padding-left: 5em;
     padding-right: 5em;
     padding-top: 1em;
@@ -8,3 +11,4 @@
 .fun-header{
     font-family: "Pridi";
 }
+

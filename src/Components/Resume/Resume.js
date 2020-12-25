@@ -2,7 +2,7 @@ import { Button } from "bootstrap"
 import { Education } from "./Education"
 import { ProExp } from "./ProExp"
 import { TechExp } from "./TechExp"
-import "../scss/Resume.scss"
+import "../scss/_resume.scss"
 import { TechStack } from "./TechStack"
 
 export const Resume = () => {

@@ -5,7 +5,7 @@ import { NavBar } from "./NavBar/NavBar";
 import { Resume } from "./Resume/Resume";
 import { GreetingSection } from "./Work/Greet";
 import { Fun } from "./Fun/Fun";
-import "./scss/NavBar.scss"
+import "./scss/_navBar.scss"
 
 export const ApplicationViews = props => {
     return (

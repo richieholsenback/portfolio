@@ -1,4 +1,4 @@
-import "../scss/Contact.scss"
+import "../scss/_contact.scss"
 
 export const ContactSection = () => {
     return (

@@ -1,4 +1,4 @@
-import "../scss/Resume.scss"
+import "../scss/_resume.scss"
 
 export const TechStack = () => {
     return (

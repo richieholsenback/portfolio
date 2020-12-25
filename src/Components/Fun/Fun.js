@@ -1,5 +1,5 @@
 import React from "react"
-import "../scss/Fun.scss"
+import "../scss/_fun.scss"
 
 export const Fun = () => {
     return (

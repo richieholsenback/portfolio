@@ -1,4 +1,5 @@
-@use 'variables';
+@import './variables';
+$test : 1;
 
 @import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
 
@@ -17,7 +18,7 @@
 }
 
 html{
-    background-color: #FFF6EA;
+    background-color: $white;
 }
 .main-container{
     display: flex;
@@ -30,23 +31,23 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #7D9283;
+    background-color: $green;
 }
 
 h1 {
     font-family: "Atkinson-Hyperledgible-Bold";
-    color: #FFF6EA;
+    color: $white;
     font-size: 72px;
 }
 h3 {
     font-family: "Atkinson-Hyperledgible-Regular";
-    color: #FFF6EA;
+    color: $white;
     font-size: 36px;
     text-decoration: underline;
 }
 p {
     font-family: "Atkinson-Hyperledgible-Bold";
-    color: #FFF6EA;
+    color: $white;
     font-size: 24px;
 }
 
@@ -58,3 +59,4 @@ p {
 .projects{
     align-items: center;
 }
+

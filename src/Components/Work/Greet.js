@@ -1,7 +1,7 @@
 import React from "react"
 import { Button, Image } from "react-bootstrap";
 import photo from '../../images/IMG_0151.jpeg'
-import "../scss/Greet.scss"
+import "../scss/_greet.scss"
 
 
 export const GreetingSection = () => {

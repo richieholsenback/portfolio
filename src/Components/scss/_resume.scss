@@ -1,7 +1,8 @@
-@use 'variables';
+@import './variables';
+$test : 2;
 
 .resume-section{
-    background-color: #5B5B7A;
+    background-color: $blue;
 }
 
 .resume-header{
@@ -9,12 +10,12 @@
 }
 
 .text-white{
-    color: #FFF6EA;
+    color: $white;
     font-family: "Atkinson-Hyperledgible-Regular";
     font-size: 36px;
 }
 .text-pink{
-    color: #FFB5B5;
+    color: $pink;
     font-family: "Atkinson-Hyperledgible-Regular";
     font-size: 36px;
 }
@@ -74,3 +75,4 @@
     margin-left: 4em;
     margin-top: -3em;
 }
+

@@ -1,17 +1,28 @@
-.navbar {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: #7D9283;
-    margin-bottom: -1em;
+@import './variables';
+
+@mixin colorBG($background){
+    background-color: $background;
+}
+
+body {
+    margin: 2em;
+    background-color: $white;
 }
 
 .navtext{
     font-family: 'Atkinson-Hyperledgible-Regular';
     font-weight: 100;
-    color: #FFF6EA;
+    color: $white;
     font-size: 30px;
     align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: -1em;
+    background-color: $green;
 }
 
 ul {
