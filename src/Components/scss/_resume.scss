@@ -43,6 +43,7 @@ $test : 2;
 
 .exp-descrip {
     list-style-type: disc;
+    margin-top: 0.2em;
     margin-bottom: 0.5em;
 }
 
@@ -78,3 +79,10 @@ $test : 2;
     margin-top: -3em;
 }
 
+.extra-sapce{
+    margin-top: 1em;
+}
+
+.job-descrip{
+    margin-top: -2em;
+}

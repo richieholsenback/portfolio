@@ -8,6 +8,10 @@ export const ContactSection = () => {
                     I’m excited to make excellent, user focused websites with you and your team.
                     Let’s get in touch!
                 </p>
+                <div className="button-section">
+                    <button className="button-left">Check out my LinkedIn</button>
+                    <button className="button-right">Send me an Email</button>
+                </div>
             </div>
         </div>
     )

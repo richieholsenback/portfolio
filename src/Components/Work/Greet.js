@@ -18,8 +18,20 @@ export const GreetingSection = () => {
                     <Button size="xl" primary>See My Work</Button>
                 </div>
             </div>
-            <div className="projects">
                 <h3>Recent Work</h3>
+            <div className="project-section">
+                <div className="project-card">
+                    <div className="square"></div>
+                    <h4 className="project-name text-white">Laugh Track</h4>
+                </div>
+                <div className="project-card">
+                    <div className="square"></div>
+                    <h4 className="project-name text-white">Laugh Track</h4>
+                </div>
+                <div className="project-card">
+                    <div className="square"></div>
+                    <h4 className="project-name text-white">Laugh Track</h4>
+                </div>
             </div>
         </div>
     )

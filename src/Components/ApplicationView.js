@@ -6,6 +6,7 @@ import { Resume } from "./Resume/Resume";
 import { GreetingSection } from "./Work/Greet";
 import { Fun } from "./Fun/Fun";
 import "./scss/_navBar.scss"
+import { ProjectList } from "./Work/ProjectList";
 
 export const ApplicationViews = props => {
     return (
