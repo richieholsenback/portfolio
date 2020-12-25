@@ -1,8 +1,10 @@
+import { NavBar } from "../NavBar/NavBar"
 import "../scss/_contact.scss"
 
 export const ContactSection = () => {
     return (
         <div className="contact-page">
+            <NavBar />
             <div className="contact-container">
                 <p className="contact-text">
                     I’m excited to make excellent, user focused websites with you and your team.

@@ -3,11 +3,28 @@ $test : 4;
 
 .fun-page{
     background-color: $red;
-    padding: 1em 5em 34.5em 5em;
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px;
 }
 
 .fun-header{
     font-family: "Pridi";
+}
+
+.fun-content{
+    padding: 0 5em 0 5em;
+}
+// padding: 1em 5em 34.5em 5em;
+
+.entertainment{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#spotify{
+    margin: 1em 2em 2em 2em;
+}
+
+#youtube{
+    margin: 1em 2em 2em 2em;
 }
 

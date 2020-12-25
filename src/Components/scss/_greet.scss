@@ -1,5 +1,4 @@
 @import './variables';
-$test : 1;
 
 @import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
 
@@ -28,12 +27,8 @@ html{
 }
 
 .work-page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: $green;
-    padding-bottom: 15em;
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px;
 }
 
 h1 {
@@ -79,4 +74,10 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .project-half{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }

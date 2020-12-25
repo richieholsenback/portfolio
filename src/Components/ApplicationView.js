@@ -12,22 +12,22 @@ export const ApplicationViews = props => {
     return (
         <div>
             <Route exact path='/'>
-                <NavBar />
+                {/* <NavBar /> */}
                 <GreetingSection />
             </Route>
 
             <Route exact path='/contact'>
-                <NavBar />
+                {/* <NavBar /> */}
                 <ContactSection />
             </Route>
             
             <Route exact path='/resume'>
-                <NavBar />
+                {/* <NavBar /> */}
                 <Resume />
             </Route>
             
             <Route exact path='/fun'>
-                <NavBar />
+                {/* <NavBar /> */}
                 <Fun />
             </Route>
         </div>
