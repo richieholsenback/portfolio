@@ -3,9 +3,8 @@ $test : 4;
 
 .fun-page{
     background-color: $red;
-    padding-left: 5em;
-    padding-right: 5em;
-    padding-top: 1em;
+    padding: 1em 5em 34.5em 5em;
+    border-radius: 0 0 8px 8px;
 }
 
 .fun-header{
